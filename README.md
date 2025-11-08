@@ -18,7 +18,7 @@ O foco é aprender:
 ```bash
 app/
 ├── Models/
-│ └── Tarefa.php
+│ └── Task.php
 ├── Http/
 │ └── Controllers/
 │ └── TarefaController.php
@@ -40,7 +40,7 @@ routes/
 | João Victor | HTML/CSS das telas **create** e **edit** |
 | Vinicius | HTML/CSS e controller da **listagem (read)** |
 | André Lucas | Controller do **create** e **Routes** |
-| Kaio | Controller do **update** e **delete** |
+| Kaio | Criação do Model, migrate e Controller do **update** e **delete** |
 | Todos | Testar o projeto e revisar código dos colegas |
 
 ---
