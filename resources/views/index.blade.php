@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+
+    <input type="text" id="taskInput" placeholder="Nova tarefa">
+    <button onclick="addTask()">Adiocionar</button>
+
+    <h2>Tarefas:</h2>
+    <ul id="taskList"></ul>
+
+    <script src="controller.js">
+
+    </script>
+</body>
+</html>
