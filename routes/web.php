@@ -12,13 +12,16 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::get('/lista', function () {
     return view('index');
 });
 
 Route::get('/editar', function () {
-    return view('edit');
+    return view('telas_Crud.update');
 });
 
 Route::get('/criar', function () {

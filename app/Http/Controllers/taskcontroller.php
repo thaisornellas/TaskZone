@@ -27,7 +27,9 @@ class taskcontroller extends Controller
      */
     public function create()
     {
-        //
+
+
+
     }
 
     /**
@@ -38,7 +40,7 @@ class taskcontroller extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //comece estanciando 
     }
 
     /**
